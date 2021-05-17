@@ -1,0 +1,19 @@
+.c-header{
+  @include HeaderTitle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  font-size: 3em;
+
+  @include e(logo-container){
+
+    @include e(img){
+
+    }
+  }
+
+  @include e(title){
+
+  }
+}

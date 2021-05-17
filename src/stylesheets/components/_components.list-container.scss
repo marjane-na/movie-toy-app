@@ -1,0 +1,33 @@
+.c-list-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 20px;
+
+  & > div{
+    width: 48%;
+  }
+
+  @include e(search-results){
+
+    @include e(title){
+      @include ListTitle;
+    }
+
+    @include e(load-more){
+      cursor: pointer;
+      @include LoadMore;
+      text-align: center;
+    }
+  }
+
+  @include e(nominations){
+
+    @include e(title){
+      @include ListTitle;
+      @include m(remaining){
+        @include MovieText;
+      }
+    }
+  }
+}

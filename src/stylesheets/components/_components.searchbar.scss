@@ -1,0 +1,17 @@
+.c-searchbar{
+
+  font-size: 1em;
+  padding-top: 20px;
+
+  @include e(form){
+
+    @include e(input){
+      box-shadow: 0 0 0 1px $grey;
+      border: 1px solid $grey;
+      border-radius: 4px;
+      height: 40px;
+      width: 100%;
+      padding-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+// General Settings
+@import "settings/settings.colors";
+@import "settings/settings.fonts";
+
+// General Theme
+@import "theme/theme.fonts";
+
+// Generic Styles
+@import "generics/generics.body";
+
+// General Tools
+@import "tools/tools.bem";
+
+// Components
+@import "components/components.movie-item";
+@import "components/components.header";
+@import "components/components.searchbar";
+@import "components/components.container";
+@import "components/components.button";
+@import "components/components.search-list";
+@import "components/components.list-container";
+@import "components/components.nominations";
+@import "components/components.modal";

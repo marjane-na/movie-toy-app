@@ -1,0 +1,21 @@
+.c-btn{
+  @include BtnText;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  @include m(black){
+    background-color: $black-btn;
+  }
+
+  @include m(green){
+    background-color: $dark-green;
+  }
+
+  @include m(white){
+    background-color: white;
+    color: $dark-green;
+  }
+}

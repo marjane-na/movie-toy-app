@@ -1,0 +1,9 @@
+body, body * {
+  font-family: shopify, serif;
+  direction: ltr;
+  margin: 0;
+  box-sizing: border-box;
+  * {
+    outline: none;
+  }
+}

@@ -1,0 +1,35 @@
+.c-movie-item {
+
+  height: 60px;
+  @include MovieText;
+  border-bottom: 1px solid $light-grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include e(poster){
+    width: 15%;
+    @include e(img){
+      max-width: 100%;
+      max-height: 50px;
+    }
+  }
+
+  @include e(title){
+    width: 55%;
+  }
+
+  @include e(year){
+    width: 15%;
+  }
+
+  @include e(btn){
+    width: 15%;
+  }
+
+  @include e(status){
+    width: 15%;
+    text-align: center;
+  }
+
+}
